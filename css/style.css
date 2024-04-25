@@ -1,0 +1,98 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "CenturyGotthicW05-Regular.";
+    box-sizing: border-box;
+}
+body{
+    background: #33404F;
+    position: relative;
+    background-image:url(../storage/img/background.svg);
+    
+}
+.main{
+    display: flex;
+    
+} 
+.background{
+    position: absolute;
+    z-index: -1;
+}
+.menu{
+    position: absolute;
+    left: 75%;
+    top: -10px;
+    width: 5%;
+}
+.inveto{
+   display: flex;
+   margin-top: 10%;
+   margin-bottom: 5%;
+  
+
+}   
+.inveto img{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 40%;
+    opacity: 9%;
+  
+  
+}
+.flex1 h1{
+    color: #fff;
+    margin-left: 5%;
+}
+.flex1 h2{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 7%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.inveto{
+    font-size: 10px;
+    margin-left: -2%;
+    color: #fff;
+}
+.strong{
+    font-size: 30px;
+   
+}
+h3{
+    color:#fff; 
+    font-size: 13px; 
+    justify-self: auto;
+    margin-left: 5%;
+}
+#color{
+   
+    
+}
+.lines{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+.linesI{
+    display: flex;
+    flex-direction: column;
+}
+.linesD{
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.lines img{
+    width: 10%;
+}
+.lines h2{}
+.flex2{
+ 
+}.flex2 img{
+    width: 150%;
+    height: 90%;
+}
