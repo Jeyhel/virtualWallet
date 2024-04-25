@@ -1,0 +1,253 @@
+@import url(variables.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    gap: 25px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main{
+    /* background: blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+} 
+
+.contain {
+    position: absolute;
+    z-index: -1;
+    top: -70%;
+    width: 100vw;
+    height:100vw ;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-image:url(../storage/img/backgroung.jpg);
+    box-shadow: 0 0 20px black;
+  
+}
+
+.C {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.C :hover{
+    transform: scale(1.05);
+}
+
+.containC {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  var(--color-1);
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    box-shadow: 0 0 30px var(--color-2);
+  
+}
+.containC p {
+    color: #fff;
+    font-family: "SF-Pro-Bold";
+    font-size: 20px;
+
+}
+
+.rotate-container {
+    transition: transform 0.5s ease; 
+    align-items: center;
+    text-align: center;
+}
+
+
+.rotate-container:hover {
+    transform: rotate(360deg); 
+}
+
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 23px;
+} 
+
+.flex1 img {
+    width: 40px;
+   
+}
+.invetoN__andimg {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flex1 h3{
+    color: #fff;
+    font-family: "SF-Pro-Bold";
+}
+.menuW img {
+    width: 35px;
+    height: 45px;
+
+}
+.text{
+    margin-top: -80%;
+    margin-left: 40%;
+    text-align: center;
+    font-family: "SF-Pro-Bold";
+    color: black;
+    font-size: 20px;
+}
+.center { 
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    padding-left: 30px;
+    overflow-x: auto;
+    flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
+}
+
+.center div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 35px;
+    border-radius: 22px;
+    border: 2px solid var(--color-5);
+    border-radius: 22px;
+    color: var(--color-3);
+    flex-shrink: 0;
+    transition-duration: .3s;
+}
+
+.center > div:hover {
+    color: white;
+    background-color: var(--color-1);
+    border: 1px solid var(--color-1);
+    transform: scale(1.2);
+} 
+
+
+.lines img{
+
+    padding-top: -40px;
+    position: absolute;
+    left: 5%;
+    top: 50PX; 
+    width: 90%;
+    z-index: -1;
+
+}
+
+
+.containS{
+    display: flex;
+    gap: 20px;
+}
+
+.containS :hover{
+
+    transform: scale(1.05);
+}
+
+
+.containS > div{
+    
+    
+    margin-top: 40%;
+    margin-left:  0.1%;
+    background:  var(--color-5);
+    display: flex;
+    gap: 20px;
+    transition-duration: 0.3s;
+    
+    
+}
+.containS img{
+    width: 130px;
+    height: 120px;
+    padding-left: 20px;
+ 
+ 
+  
+}
+.contain > div {
+    box-shadow: 0 0 30px;
+}
+.containS h3{
+    width: 50%;
+    padding-top: 10%;
+    font-size:20px; 
+    font-family: "SF-Pro-Bold";
+  
+}
+.containS p {
+    font-size: 13px;
+    font-family: "SF-Pro-Regular";
+    width: 95%;
+}
+
+.cancel{
+    position: absolute;
+    left: 85%;
+    top: 66%;
+    width: 10%;
+}   
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: var(--space-layout-padding-lr);
+    
+
+
+}
+.footer__ul{
+    background:  var(--color-1);
+    box-shadow: 0 0 15px var(--color-2);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer__ul li{
+    list-style: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+    
+}
+.footer__ul li a img{
+    
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+   
+}
