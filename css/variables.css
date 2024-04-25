@@ -1,0 +1,56 @@
+:root{
+    --color-1: #8C4A63;
+    --color-2: #fff; 
+    --color-3: #FAB1C1;
+    --color-4:#63333f; 
+    --color-5:#F27E9D;
+    --color-6:#F2CEF2; 
+    
+  
+
+}
+    @font-face {
+    font-family: "SF-Pro-Bold";
+    src: url("../storage/font/SF-Pro-Text-Bold.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Light";
+    src: url("../storage/font/SF-Pro-Text-Light.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Heavy";
+    src: url("../storage/font/SF-Pro-Text-Heavy.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Medium";
+    src: url("../storage/font/SF-Pro-Text-Medium.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Regular";
+    src: url("../storage/font/SF-Pro-Text-Regular.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Semibold";
+    src: url("../storage/font/SF-Pro-Text-Semibold.otf");
+}
+
+
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../storage/font/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../storage/font/Poppins-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url("../storage/font/AvenirLTStd-Roman.otf");
+}
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url("../storage/font/AvenirLTStd-Black.otf");
+}
