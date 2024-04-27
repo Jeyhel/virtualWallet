@@ -1,8 +1,34 @@
 @import url(variables.css);
+
+@font-face {
+    font-family: "SF-Pro-Bold";
+    src: url("../storage/font/SF-Pro-Text-Bold.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Light";
+    src: url("../storage/font/SF-Pro-Text-Light.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Heavy";
+    src: url("../storage/font/SF-Pro-Text-Heavy.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Medium";
+    src: url("../storage/font/SF-Pro-Text-Medium.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Regular";
+    src: url("../storage/font/SF-Pro-Text-Regular.otf");
+}
+@font-face {
+    font-family: "SF-Pro-Semibold";
+    src: url("../storage/font/SF-Pro-Text-Semibold.otf");
+}
+
 *{
     padding: 0;
     margin: 0;
-    font-family: "CenturyGotthicW05-Regular.";
+    /* font-family: "CenturyGotthicW05-Regular."; */
     box-sizing: border-box;
 }
 body{
@@ -45,18 +71,27 @@ body{
 .flex1 h1{
     color: #fff;
     margin-left: 5%;
+    font-family: "SF-Pro-Heavy";
+    font-size: 35px;
+  
 }
 .flex1 h2{
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
     margin-bottom: 7%;
     margin-top: 2%;
     margin-left: 5%;
+    font-family: "SF-Pro-Light";
 }
 .inveto{
     font-size: 10px;
     margin-left: -2%;
     color: #fff;
+}
+
+.inveto p {
+    font-family: "SF-Pro-Bold";
+    font-size: 17px;
 }
 .strong{
     font-size: 30px;
@@ -75,13 +110,21 @@ h3{
 .lines{
     display: flex;
     flex-direction: row;
+    margin-left: 4%;
     gap: 20%;
+    width: 45%;
+    font-family: "SF-Pro-Medium";
   
+}
+.lines h3{
+    margin-left: 1%;
+    margin-bottom: 5%;
 }
 .linesI{
     display: flex;
     flex-direction: column;
     color:#fff; 
+    margin-left: -1%;
 }
 .linesD{
   
@@ -100,22 +143,24 @@ h3{
    
  
 }.flex2 img{
-    margin-top: 20%;
+    margin-top: 5%;
     width: 101%;
     height: 90%;
     display:flex ;
  
 }
 .flex2 h2{
-  margin-top: -130%;
+  margin-top: -125%;
   margin-left: 5%;
-  color:#33404F
+  color:#33404F;
+  font-family: "SF-Pro-Bold";
 
 }
 .flex3{
     width: 42%;
     display: flex;
-    margin-top: -0%;
+    margin-top: -3%;
+   
    
 }
 .img1{
@@ -133,11 +178,14 @@ h3{
   
     display: flex;
     margin-bottom: 10%;
+    margin-left: -5%;
    
 }
 .flex4 h2{
-    margin-left: 5%;
-    color:#33404F
+    margin-left: 9%;
+    color:#33404F;
+    font-family: "SF-Pro-Bold";
+
 }
 .flex4_1{
 
@@ -146,7 +194,7 @@ h3{
 }
 .icon1{
     width: 10%;
-    margin-left: -33%;
+    margin-left: -39%;
     margin-top: 10%
     
 }
@@ -163,6 +211,7 @@ h3{
     margin-top: 2%;
     margin-left: 10%;
     color: #33404F;
+    font-family: "SF-Pro-Bold";
     
     
 }
@@ -178,29 +227,36 @@ h3{
     margin-left: 19.80%;
     margin-top: 1%;
     font-size: 10px;
+    font-family: "SF-Pro-Medium";
 }
+
+
+
 .icon2{
     width: 10%;
-    margin-left: -33%;
-    margin-top: 20%
+    margin-left: 4%;
+    margin-top: 5%
     
 }
 
 
-
 .flex4_3{
-    width: 85%;
+    width: 47%;
     display: flex;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: -10%;
+    margin-left: 50%;
     justify-content: space-between;
+    background: red;
 }
 .flex4_3 h3 { 
 
     display: flex;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: -67%;
     color: #33404F;
+    font-family: "SF-Pro-Bold";
+    
+    
     
     
 }
@@ -210,10 +266,13 @@ h3{
     display: flex;
     justify-content: space-between;
    
+   
 }
 
 .flex4_4 p {
     margin-left: 19.80%;
-    margin-top: 10%;
-    font-size: 10px;
+    margin-top: 2%;
+    font-size: 15px;
+    color: #33404F;
+    
 }
