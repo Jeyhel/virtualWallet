@@ -1,29 +1,5 @@
 @import url(variables.css);
 
-@font-face {
-    font-family: "SF-Pro-Bold";
-    src: url("../storage/font/SF-Pro-Text-Bold.otf");
-}
-@font-face {
-    font-family: "SF-Pro-Light";
-    src: url("../storage/font/SF-Pro-Text-Light.otf");
-}
-@font-face {
-    font-family: "SF-Pro-Heavy";
-    src: url("../storage/font/SF-Pro-Text-Heavy.otf");
-}
-@font-face {
-    font-family: "SF-Pro-Medium";
-    src: url("../storage/font/SF-Pro-Text-Medium.otf");
-}
-@font-face {
-    font-family: "SF-Pro-Regular";
-    src: url("../storage/font/SF-Pro-Text-Regular.otf");
-}
-@font-face {
-    font-family: "SF-Pro-Semibold";
-    src: url("../storage/font/SF-Pro-Text-Semibold.otf");
-}
 
 *{
     padding: 0;
@@ -36,7 +12,13 @@ body{
     background-image:url(../storage/img/background.svg);
     background-repeat: no-repeat ;
     background-size: 100%;
+    display: flex;
+    flex-direction: column;
     
+}
+.header{
+
+    margin-top: -20;
 }
 .main{
     display: flex;
@@ -54,20 +36,28 @@ body{
 }
 .inveto{
    display: flex;
-   margin-top: 10%;
+   margin-top: 5%;
    margin-bottom: 5%;
+   font-size: 10px;
+   margin-left: -2%;
+   color: #fff;
   
 
 }   
 .inveto img{
     position: relative;
     margin-top: 2%;
-    margin-left: 30%;
+    margin-left: 50%;
     width: 40%;
-    opacity: 9%;
-  
-  
+    
+ 
+}      
+.inveto p {
+    font-family: "SF-Pro-Bold";
+    font-size: 17px;
+   
 }
+
 .flex1 h1{
     color: #fff;
     margin-left: 5%;
@@ -83,16 +73,7 @@ body{
     margin-left: 5%;
     font-family: "SF-Pro-Light";
 }
-.inveto{
-    font-size: 10px;
-    margin-left: -2%;
-    color: #fff;
-}
 
-.inveto p {
-    font-family: "SF-Pro-Bold";
-    font-size: 17px;
-}
 .strong{
     font-size: 30px;
    
@@ -134,23 +115,26 @@ h3{
 }
 
 .lines img{
+
     width: 10%;
+    
 }
-.lines h2{}
 
 .flex2{
     width: 100%;
    
  
-}.flex2 img{
+}.flex2_contain {
+    background: white;
+    padding-bottom: 55px;
+    padding-top: 1px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     margin-top: 5%;
-    width: 101%;
-    height: 90%;
-    display:flex ;
  
 }
-.flex2 h2{
-  margin-top: -125%;
+.flex2_1 h2{
+  margin-top: 9%;
   margin-left: 5%;
   color:#33404F;
   font-family: "SF-Pro-Bold";
@@ -173,18 +157,18 @@ h3{
     width: 80%;
 }
 
+.flex4 h2{
+    margin-left: -10%;
+    color:#33404F;
+    font-family: "SF-Pro-Bold";
+}
 
 .flex4{
   
     display: flex;
     margin-bottom: 10%;
     margin-left: -5%;
-   
-}
-.flex4 h2{
-    margin-left: 9%;
-    color:#33404F;
-    font-family: "SF-Pro-Bold";
+
 
 }
 .flex4_1{
@@ -194,7 +178,7 @@ h3{
 }
 .icon1{
     width: 10%;
-    margin-left: -39%;
+    margin-left: 8.5%;
     margin-top: 10%
     
 }
@@ -211,6 +195,7 @@ h3{
     margin-top: 2%;
     margin-left: 10%;
     color: #33404F;
+    font-size: 17px;
     font-family: "SF-Pro-Bold";
     
     
@@ -226,8 +211,9 @@ h3{
 .flex4_2 p {
     margin-left: 19.80%;
     margin-top: 1%;
-    font-size: 10px;
+    font-size: 15px;
     font-family: "SF-Pro-Medium";
+    color: gray;
 }
 
 
@@ -246,7 +232,7 @@ h3{
     margin-top: -10%;
     margin-left: 50%;
     justify-content: space-between;
-    background: red;
+    /* background: red; */
 }
 .flex4_3 h3 { 
 
@@ -255,10 +241,9 @@ h3{
     margin-left: -67%;
     color: #33404F;
     font-family: "SF-Pro-Bold";
-    
-    
-    
-    
+    font-size: 17px;
+    margin-bottom: -10%;
+
 }
 
 .flex4_4 {
@@ -271,8 +256,61 @@ h3{
 
 .flex4_4 p {
     margin-left: 19.80%;
-    margin-top: 2%;
+    margin-top: 6%;
     font-size: 15px;
     color: #33404F;
+    font-family: "SF-Pro-Medium";
+    color: gray;
     
+}
+.icon3{
+    width: 10%;
+    margin-left: -39%;
+    margin-top: 10%
+    
+
+
+}
+
+
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: var(--space-layout-padding-lr);
+    
+
+
+}
+.footer__ul{
+    background: #33404F;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer__ul li{
+    list-style: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+    
+}
+.footer__ul li a img{
+    
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+   
 }
