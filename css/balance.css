@@ -1,0 +1,79 @@
+@import url(variables.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+.header{
+
+    margin-top: -20;
+}
+.main{
+    display: flex;
+    
+} 
+
+.contain div {
+    background: #33404F;
+    width: 420px;
+    height: 330px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -25%; 
+    background-image:url(../storage/img/bg1.svg);
+  
+}
+.containC article {
+    background: #00DDA3;
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+
+}
+
+
+.flex1 img {
+    position: absolute;
+    width: 8%;
+    margin-top: -6%;
+    margin-left: 5%;
+   
+}
+.flex1 h3{
+    color: #fff;
+    margin-left: 13%;
+    margin-top: -50%;
+    font-family: "SF-Pro-Bold";
+}
+.menuW img {
+    width: 25px;
+    height: 34px;
+    margin-top: -59%;
+    margin-left: 80%;
+}
+.text{
+    margin-top: -30%;
+    margin-left: -5%;
+    text-align: center;
+    font-family: "SF-Pro-Bold";
+    color: #fff;
+    font-size: 20px;
+}
+.text p{
+
+
+  
+
+}
