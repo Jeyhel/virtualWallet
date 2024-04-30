@@ -30,12 +30,11 @@ main{
     position: absolute;
     z-index: -1;
     top: -70%;
-    background: #33404F;
     width: 100vw;
     height:100vw ;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    background-image:url(../storage/img/bg1.svg);
+    background-image:url(../storage/img/backgroung.jpg);
   
 }
 
@@ -51,7 +50,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #00DDA3;
+    background:  var(--color-1);
     z-index: 2;
     width: 180px;
     height: 180px;
@@ -108,21 +107,21 @@ main{
 
 }
 .box1 {
-    border: 2px solid  #33404F;
+    border: 2px solid  var(--color-3);
     border-radius: 22px;
-    color: #fff;
-    background: #33404F;
+    color: var(--color-3);
+  
 }
 
 .box2 {
-    border: 2px solid  #00DDA3;
+    border: 2px solid  var(--color-1);
     border-radius: 22px;
-    color: #00DDA3;
+    color:var(--color-1)
 }
 .box3 {
-    border: 2px solid  #B5C5C3;
+    border: 2px solid var(--color-3);
     border-radius: 22px;
-    color: #B5C5C3;
+    color: var(--color-3);
 }
 .box1 p{
     display: flex;
@@ -174,7 +173,7 @@ main{
     
     margin-top: 40%;
     margin-left:  0.1%;
-    background: #00DDA3;
+    background:  var(--color-3);
     display: flex;
     gap: 20px;
    
@@ -219,7 +218,7 @@ main{
 
 }
 .footer__ul{
-    background: #33404F;
+    background:  var(--color-1);
     height: 55px;
     display: flex;
     flex-direction: row;

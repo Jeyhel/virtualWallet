@@ -95,9 +95,10 @@ body{
     overflow-x: auto;
     width: auto;
     gap: 20px;
-    padding-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-bottom: 80px; */
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    padding: 5%;
 }
 .contain{
     position: relative;
@@ -110,11 +111,12 @@ body{
     margin-bottom: 3%;
     box-shadow: 0px 0px 10px rgb(117, 117, 117);
     overflow: hidden;
+    
 }
 
 .contain div {
     position: absolute;
-    background: rgb(205, 247, 205);
+    background:  var(--color-1);
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -157,7 +159,7 @@ body{
 button{
     border-radius: 30px;
     padding: 10px 30px ;
-    background: #00DDA3;
+    background:  var(--color-1);
     color: #fff;
     border: none;
     font-family: "SF-Pro-Bold";
@@ -168,7 +170,7 @@ button{
     font-size: 20px;
     padding-left: 30px;
     padding-top: 50px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .contain2{
@@ -179,25 +181,48 @@ button{
     border-radius: 20px;
     width: 200px;
     height: 300px;
-    background-image:url(../storage/img/bg1.svg);
+    background-image:url(../storage/img/bg1.jpg);
+    background-size: 100% 100%;
     flex-shrink: 0;
+    transition-duration: 0.2s;
+
 }
 .contain3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #33404F;
     opacity: 50%;
     border-radius: 20px;
     width: 200px;
     height: 300px;
-    background-image:url(../storage/img/bg2.svg);
+    background-image:url(../storage/img/bg2.jpg);
+    background-size: 100% 100%;
     flex-shrink: 0;
+    transition-duration: 0.2s;
+
 }
 .flex1{
     display: flex;
+    
   
 }
+
+.containG .contain2 {
+    transition-duration: 0.3s;
+}
+
+.containG .contain2:hover{
+    transform: scale(1.05   );
+}
+
+.containG .contain3{
+    transition-duration: 0.3s;
+}
+
+.containG .contain3:hover{
+    transform: scale(1.05);
+}
+
 .flex1 img{
     width: 11%;
     margin-top: 15%;
@@ -240,7 +265,7 @@ strong {
 
 }
 .footer__ul{
-    background: #33404F;
+    background:  var(--color-1);
     height: 55px;
     display: flex;
     flex-direction: row;

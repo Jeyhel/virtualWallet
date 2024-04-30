@@ -8,10 +8,10 @@
     box-sizing: border-box;
 }
 body{
-    background: #33404F;
-    background-image:url(../storage/img/background.svg);
-    background-repeat: no-repeat ;
-    background-size: 100%;
+  
+    background-image:url(../storage/img/backgroung.jpg);
+    background-size: 100% 100%;
+    background-color: black;
     display: flex;
     flex-direction: column;
     
@@ -22,6 +22,7 @@ body{
 }
 .main{
     display: flex;
+   
     
 } 
 .background{
@@ -40,7 +41,7 @@ body{
    margin-bottom: 5%;
    font-size: 10px;
    margin-left: -2%;
-   color: #fff;
+   color: var(--color-2);
   
 
 }   
@@ -49,17 +50,19 @@ body{
     margin-top: 2%;
     margin-left: 50%;
     width: 40%;
+  
     
  
 }      
 .inveto p {
     font-family: "SF-Pro-Bold";
     font-size: 17px;
+    color: var(--color-2);
    
 }
 
 .flex1 h1{
-    color: #fff;
+    color: var(--color-2);
     margin-left: 5%;
     font-family: "SF-Pro-Heavy";
     font-size: 35px;
@@ -67,7 +70,7 @@ body{
 }
 .flex1 h2{
     font-size: 35px;
-    color: #fff;
+    color: var(--color-2);
     margin-bottom: 7%;
     margin-top: 2%;
     margin-left: 5%;
@@ -79,7 +82,7 @@ body{
    
 }
 h3{
-    color:#fff; 
+    color: var(--color-2);
     font-size: 13px; 
     justify-self: auto;
     margin-left: 5%;
@@ -100,18 +103,19 @@ h3{
 .lines h3{
     margin-left: 1%;
     margin-bottom: 5%;
+    color: var(--color-2);
 }
 .linesI{
     display: flex;
     flex-direction: column;
-    color:#fff; 
+    color: var(--color-2); 
     margin-left: -1%;
 }
 .linesD{
   
     display: flex;
     flex-direction: column;
-    color:#fff; 
+    color: var(--color-2);
 }
 
 .lines img{
@@ -125,41 +129,49 @@ h3{
    
  
 }.flex2_contain {
-    background: white;
+    color: var(--color-2);
     padding-bottom: 55px;
     padding-top: 1px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     margin-top: 5%;
- 
+    background: var(--color-2);
 }
+
+.contain{
+    width: 100%;
+    height: 20%;
+    overflow-y: scroll;
+}
+
 .flex2_1 h2{
   margin-top: 9%;
   margin-left: 5%;
-  color:#33404F;
+  color: var(--color-1);
   font-family: "SF-Pro-Bold";
 
 }
 .flex3{
-    width: 42%;
+    width: 100%;
     display: flex;
     margin-top: -3%;
+    overflow-x: scroll;
    
    
 }
 .img1{
-    width: 80%;
+    width: 35%;
 }
 .img2{
-    width: 80%;
+    width: 35%;
 }
 .img3{
-    width: 80%;
+    width: 35%;
 }
 
 .flex4 h2{
     margin-left: -10%;
-    color:#33404F;
+    color: var(--color-1);
     font-family: "SF-Pro-Bold";
 }
 
@@ -168,7 +180,6 @@ h3{
     display: flex;
     margin-bottom: 10%;
     margin-left: -5%;
-
 
 }
 .flex4_1{
@@ -194,9 +205,9 @@ h3{
     display: flex;
     margin-top: 2%;
     margin-left: 10%;
-    color: #33404F;
     font-size: 17px;
     font-family: "SF-Pro-Bold";
+    color: var(--color-1);
     
     
 }
@@ -239,7 +250,7 @@ h3{
     display: flex;
     margin-top: 2%;
     margin-left: -67%;
-    color: #33404F;
+    color: var(--color-3);
     font-family: "SF-Pro-Bold";
     font-size: 17px;
     margin-bottom: -10%;
@@ -258,7 +269,6 @@ h3{
     margin-left: 19.80%;
     margin-top: 6%;
     font-size: 15px;
-    color: #33404F;
     font-family: "SF-Pro-Medium";
     color: gray;
     
@@ -286,7 +296,7 @@ h3{
 
 }
 .footer__ul{
-    background: #33404F;
+    background: var(--color-1);
     height: 55px;
     display: flex;
     flex-direction: row;
@@ -309,8 +319,8 @@ h3{
 }
 .footer__ul li a img{
     
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
    
 }
