@@ -8,72 +8,242 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    gap: 25px;
     
 }
 .header{
-
-    margin-top: -20;
-}
-.main{
     display: flex;
-    
+    flex-direction: column;
+    position: relative;
+}
+
+main{
+    /* background: blue; */
+    position: relative;
+
 } 
 
-.contain div {
+.contain {
+    position: absolute;
+    z-index: -1;
+    top: -70%;
     background: #33404F;
-    width: 420px;
-    height: 330px;
-    border-radius: 50%;
-    margin-left: -15px;
-    margin-top: -25%; 
+    width: 100vw;
+    height:100vw ;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
     background-image:url(../storage/img/bg1.svg);
   
 }
-.containC article {
+
+.asd {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.containC {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #00DDA3;
     z-index: 2;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-left: 25%;
-    margin-top: 15%;
+  
+}
+.containC p {
+    color: #fff;
+    font-family: "SF-Pro-Bold";
+    font-size: 20px;
 
 }
 
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 23px;
+} 
 
 .flex1 img {
-    position: absolute;
-    width: 8%;
-    margin-top: -6%;
-    margin-left: 5%;
+    width: 28px;
    
 }
+.invetoN__andimg {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 .flex1 h3{
     color: #fff;
-    margin-left: 13%;
-    margin-top: -50%;
     font-family: "SF-Pro-Bold";
 }
 .menuW img {
     width: 25px;
     height: 34px;
-    margin-top: -59%;
-    margin-left: 80%;
+
 }
 .text{
-    margin-top: -30%;
-    margin-left: -5%;
+    margin-top: -80%;
+    margin-left: 40%;
     text-align: center;
     font-family: "SF-Pro-Bold";
-    color: #fff;
+    color: black;
     font-size: 20px;
 }
-.text p{
+.center{
+    display: flex;
+    padding-top: -20%;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 25px;
+
+}
+.box1 {
+    border: 2px solid  #33404F;
+    border-radius: 22px;
+    color: #fff;
+    background: #33404F;
+}
+
+.box2 {
+    border: 2px solid  #00DDA3;
+    border-radius: 22px;
+    color: #00DDA3;
+}
+.box3 {
+    border: 2px solid  #B5C5C3;
+    border-radius: 22px;
+    color: #B5C5C3;
+}
+.box1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90px;
+    height: 35px;
+    border-radius: 22px;
+}
+.box2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90px;
+    height: 35px;
+    border-radius: 22px;
+}
+.box3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90px;
+    height: 35px;
+    border-radius: 22px;
+}
+
+.lines img{
+    padding-top: 40px;
+    position: absolute;
+    left: 5%;
+    top: 5%; 
+    width: 90%;
+
+}
 
 
+.containS{
+    display: flex;
+    gap: 20px;
+
+
+    
+}
+.containS > div{
+    
+    
+    margin-top: 40%;
+    margin-left:  0.1%;
+    background: #00DDA3;
+    display: flex;
+    gap: 20px;
+   
+    
+    
+}
+.containS img{
+    width: 120px;
+    height: 120px;
+    padding-left: 20px;
+    
+ 
   
+    
+}
+.containS h3{
+    width: 50%;
+    padding-top: 10%;
+    font-size:20px; 
+    font-family: "SF-Pro-Bold";
+  
+}
+.containS p {
+    font-size: 14px;
+    font-family: "SF-Pro-Regular";
+    width: 95%;
+}
 
+.cancel{
+    position: absolute;
+    left: 85%;
+    top: 66%;
+    width: 10%;
+}   
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: var(--space-layout-padding-lr);
+    
+
+
+}
+.footer__ul{
+    background: #33404F;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer__ul li{
+    list-style: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+    
+}
+.footer__ul li a img{
+    
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+   
 }
