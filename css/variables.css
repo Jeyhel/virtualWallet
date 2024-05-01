@@ -30,3 +30,24 @@
     font-family: "SF-Pro-Semibold";
     src: url("../storage/font/SF-Pro-Text-Semibold.otf");
 }
+
+
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../storage/font/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../storage/font/Poppins-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url("../storage/font/AvenirLTStd-Roman.otf");
+}
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url("../storage/font/AvenirLTStd-Black.otf");
+}
