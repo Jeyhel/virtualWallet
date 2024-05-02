@@ -93,6 +93,7 @@ body{
 }
 .words {
     position: relative;
+  
 }
 
 .words::after {
@@ -118,6 +119,8 @@ body{
     }
 }
 
+
+
 .containG{
     display: flex;
     overflow-x: scroll;
@@ -130,6 +133,7 @@ body{
     margin-top: -3%;
 
 }
+
 .contain{
     position: relative;
     display: flex;
@@ -191,12 +195,13 @@ body{
 
 button{
     border-radius: 30px;
-    padding: 10px 30px ;
+    padding: 10px 31px ;
     background:  var(--color-1);
     color: #fff;
     border: none;
     font-family: "SF-Pro-Bold";
     font-size: 10px;
+   
 }
 .section_middle p {
     font-family: "SF-Pro-Bold";

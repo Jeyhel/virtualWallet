@@ -160,7 +160,7 @@ h3{
 .flex2_1 h2{
   margin-top: 9%;  
   margin-left: 5%;
-  color: var(--color-1);
+  color: var(--color-4);
   font-family: "SF-Pro-Bold";
   padding-bottom: 5%;
 
@@ -180,7 +180,7 @@ h3{
 }    
 
 .flex3 > div{
-    background: var(--color-1);
+    background: linear-gradient(var(--color-4), var(--color-1));
     border-radius: 30px;
     width: 30%;
     height: 140px; 
@@ -228,6 +228,8 @@ h3{
 
 
 
+
+
 /* .flex3{
     width: 100%;
     display: flex;
@@ -248,7 +250,7 @@ h3{
 
 .flex4 h2{
     margin-left: -10%;
-    color: var(--color-1);
+    color: var(--color-4);
     font-family: "SF-Pro-Bold";
 }    
 
@@ -320,6 +322,9 @@ h3{
 .flex4_2 :hover{
     transform: scale(1.05);
 }    
+.flex4_1 :hover{
+    transform: scale(1.05);
+}    
 
 .flex4_2 {
     width: 95%;
@@ -361,7 +366,7 @@ h3{
     display: flex;
     margin-top: 2%;
     margin-left: -67%;
-    color: var(--color-3);
+    color: var(--color-4);
     font-family: "SF-Pro-Bold";
     font-size: 17px;
     margin-bottom: -10%;
@@ -407,7 +412,7 @@ h3{
 
 }
 .footer__ul{
-    background: var(--color-1);
+    background: linear-gradient(var(--color-4), var(--color-1));
     box-shadow: 0 0 20px var(--color-2);
     height: 55px;
     display: flex;
