@@ -137,6 +137,40 @@ h3{
     
 }    
 
+.progress1 {
+    width: 150px;
+}
+
+.progress2 {
+    width: 150px;
+}
+
+.progress1[value] {
+    --color: var(--color-5);
+ }
+
+progress[value] {
+    --color: var(--color-5);
+    --background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 1em;
+    background: var(--background);
+    height: 7px;
+  }
+  progress[value]::-webkit-progress-bar {
+    border-radius: 1em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 1em;
+    background: var(--color);
+  }
+
+
+
 .flex2{
     width: 100%;
    
@@ -249,7 +283,7 @@ h3{
 }    
 
 .flex4 h2{
-    margin-left: -10%;
+    margin-left: 10%;
     color: var(--color-4);
     font-family: "SF-Pro-Bold";
 }    
@@ -270,15 +304,25 @@ h3{
 
 .flex4_1{
 
-    width: 30%;
+    width: 40%;
+    display: flex;
 
 }    
+.scrolltrans{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    overflow-y: scroll;
 
+  
+
+
+}
 
 .starbucks{
     width: 10%;
-    margin-left: 9%;
-    margin-top: 10% 
+    margin-left: 4%;
+    margin-bottom:-15%; 
 }    
 .youtube{
     width: 10%;
@@ -286,18 +330,19 @@ h3{
     margin-top: 10% 
 }    
    
-.insta{
-    width: 10%;
-    margin-left: 8%;
-    margin-top: 10%
-    
-}    
+
 .campus{
     width: 10%;
     margin-left: 3%;
     margin-top: 10%
     
 }    
+.insta{
+    width: 45px;
+    margin-left: 3%;
+    margin-top: 10%
+    
+}   
 .flex4_1{
     width: 85%;
     display: flex;
@@ -309,7 +354,7 @@ h3{
 .flex4_1 h3 { 
 
     display: flex;
-    margin-top: 2%;
+    margin-top: 30%;
     margin-left: 10%;
     font-size: 17px;
     font-family: "SF-Pro-Bold";
