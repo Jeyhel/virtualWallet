@@ -36,6 +36,7 @@ main{
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     background-image:url(../storage/img/backgroung.jpg);
+    box-shadow: 0 0 20px black;
   
 }
 
@@ -60,6 +61,7 @@ main{
     height: 180px;
     border-radius: 50%;
     transition-duration: 0.3s;
+    box-shadow: 0 0 30px var(--color-2);
   
 }
 .containC p {
@@ -68,6 +70,18 @@ main{
     font-size: 20px;
 
 }
+
+.rotate-container {
+    transition: transform 0.5s ease; 
+    align-items: center;
+    text-align: center;
+}
+
+
+.rotate-container:hover {
+    transform: rotate(360deg); 
+}
+
 
 .flex1 {
     display: flex;
@@ -172,8 +186,12 @@ main{
     width: 130px;
     height: 120px;
     padding-left: 20px;
+ 
+ 
   
-    
+}
+.contain > div {
+    box-shadow: 0 0 30px;
 }
 .containS h3{
     width: 50%;
@@ -205,6 +223,7 @@ main{
 }
 .footer__ul{
     background:  var(--color-1);
+    box-shadow: 0 0 15px var(--color-2);
     height: 55px;
     display: flex;
     flex-direction: row;
